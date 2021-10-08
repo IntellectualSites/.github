@@ -1,0 +1,41 @@
+categories:
+  - title: '💥 Breaking changes'
+    label: 'Breaking changes'
+  - title: '🐛 Major bug fixes'
+    label: 'Major bug fix'
+  - title: '✨ Major features and improvements'
+    label: 'Major feature'
+  - title: '🐛 Fixes'
+    label: 'Bugfix'
+  - title: '✨ Features'
+    label: 'Feature'
+  - title: '🧭 Changes'
+    label: 'Enhancement'
+  - title: '📦 Dependency updates'
+    labels:
+      - 'Renovate'
+      - 'Dependency updates'
+  - title: '📝 Documentation updates'
+    label: 'documentation'
+  - title: '🚦 Tests'
+    label: 'tests'
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-title-escapes: '\<*_&@'
+template: |
+  $CHANGES
+  
+  autolabeler:
+  - label: 'documentation'
+    files:
+      - '*.md'
+      - '*.adoc'
+    branch:
+      - '/docs{0,1}\/.+/'
+  - label: 'Bugfix'
+    branch:
+      - '/fix\/.+/'
+    title:
+      - '/fix/i'
+  - label: 'Feature'
+    branch:
+      - '/feature\/.+/'
