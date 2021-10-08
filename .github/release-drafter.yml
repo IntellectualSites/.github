@@ -24,7 +24,7 @@ change-title-escapes: '\<*_&@'
 template: |
   $CHANGES
   
-  autolabeler:
+autolabeler:
   - label: 'documentation'
     files:
       - '*.md'
