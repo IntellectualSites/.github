@@ -39,3 +39,6 @@ autolabeler:
   - label: 'Feature'
     branch:
       - '/feature\/.+/'
+  - label: 'Feature'
+    branch:
+      - '/feat\/.+/'
