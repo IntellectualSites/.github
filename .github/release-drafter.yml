@@ -11,6 +11,10 @@ categories:
     label: 'Feature'
   - title: '🧭 Changes'
     label: 'Enhancement'
+  - title: '✔️ Chore'
+    labels:
+      - 'Refactor'
+      - 'chore'
   - title: '📦 Dependency updates'
     labels:
       - 'Renovate'
