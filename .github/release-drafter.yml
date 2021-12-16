@@ -11,7 +11,7 @@ categories:
     label: 'Feature'
   - title: '🧭 Changes'
     label: 'Enhancement'
-  - title: '✔️ Chore'
+  - title: '✅ Chore'
     labels:
       - 'Refactor'
       - 'chore'
