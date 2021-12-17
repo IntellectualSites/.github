@@ -27,6 +27,9 @@ change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 change-title-escapes: '\<*_&@'
 template: |
   $CHANGES
+tag-template: $NEXT_PATCH_VERSION
+version-template: $MAJOR.$MINOR.$PATCH
+name-template: $NEXT_PATCH_VERSION
   
 autolabeler:
   - label: 'documentation'
