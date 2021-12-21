@@ -17,12 +17,11 @@ Fixes #{issue number}
 - [ ] I ensured my changes do not break other parts of the code
 - [ ] I read and followed the [contribution guidelines](https://github.com/IntellectualSites/.github/blob/main/CONTRIBUTING.md)
 
-
 ## Maintainer checklist
 <!-- Leave this blank, it's for project maintainers -->
 Before the changes are marked as `Ready for merge`: 
 
-- [ ] There are at least 2 approvals for the pull request and no outstanding requests for change
+- [ ] There are at least 2 approvals from project developers or maintainers for the pull request and no outstanding requests for change
 - [ ] Conversations in the pull request are over OR it is explicit that a reviewer does not block the change
 - [ ] Changelog entries in the PR title are correct
 - [ ] Proper changelog labels are set so that the changelog can be generated automatically
