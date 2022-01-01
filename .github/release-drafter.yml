@@ -23,6 +23,9 @@ categories:
     label: 'documentation'
   - title: '🚦 Tests'
     label: 'tests'
+exclude-labels:
+  - skip-changelog
+  - invalid
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 change-title-escapes: '\<*_&@'
 template: |
