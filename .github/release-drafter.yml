@@ -53,6 +53,18 @@ autolabeler:
     title:
       - '/feat/i'
       - '/feature/i'
+  - label: 'chore'
+    branch:
+      - '/chore\/.+/'
+      - '/refactor\/.+/'
+    title:
+      - '/chore/i'
+      - '/refactor\/.+/'
+  - label: 'tests'
+    branch:
+      - '/tests\/.+/'
+    title:
+      - '/tests/i'
   - label: 'Ready for Review'
     body:
       - '\Z'
