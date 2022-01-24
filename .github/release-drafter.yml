@@ -65,6 +65,16 @@ autolabeler:
       - '/tests\/.+/'
     title:
       - '/tests/i'
+  - label: 'documentation'
+    branch:
+      - '/docs\/.+/'
+    title:
+      - '/docs/i'
+  - label: 'documentation'
+    branch:
+      - '/docs\/.+/'
+    title:
+      - '/documentation/i'
   - label: 'Ready for Review'
     body:
       - '\Z'
