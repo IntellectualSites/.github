@@ -1,9 +1,9 @@
 categories:
   - title: '💥 Breaking changes'
     label: 'Breaking changes'
-  - title: '🐛 Major bug fixes'
+  - title: '🐞 Major bug fixes'
     label: 'Major bug fix'
-  - title: '✨ Major features and improvements'
+  - title: '🚀 Major features and improvements'
     label: 'Major feature'
   - title: '🐛 Fixes'
     label: 'Bugfix'
@@ -15,14 +15,14 @@ categories:
     labels:
       - 'Refactor'
       - 'chore'
+  - title: '📝 Documentation updates'
+    label: 'documentation'
+  - title: '🚦 Tests'
+    label: 'tests'    
   - title: '📦 Dependency updates'
     labels:
       - 'Renovate'
       - 'Dependency updates'
-  - title: '📝 Documentation updates'
-    label: 'documentation'
-  - title: '🚦 Tests'
-    label: 'tests'
 exclude-labels:
   - skip-changelog
   - invalid
