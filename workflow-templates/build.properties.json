@@ -1,5 +1,5 @@
 {
-  "name": "Build pushes and pull requests with Gradle and Kotlin DSL",
+  "name": "Build a project with Gradle",
   "description": "This workflow builds all pull requests and pushes.",
   "iconName": "intellectualsites",
   "categories": [
