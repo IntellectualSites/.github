@@ -2,7 +2,7 @@
   "name": "Build a project with Gradle",
   "description": "This workflow builds all pull requests and pushes.",
   "iconName": "intellectualsites",
-  "categories": [
-    "Gradle"
-  ]
+  "filePatterns": [
+        "^build[.]gradle([.]kts)?$"
+    ]
 }
