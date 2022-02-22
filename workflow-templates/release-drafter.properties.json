@@ -1,0 +1,5 @@
+{
+  "name": "Setup Release drafter",
+  "description": "Release drafter assembles a changelog based on pull request titles and our list of labels",
+  "iconName": "intellectualsites"
+}
