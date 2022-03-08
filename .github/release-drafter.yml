@@ -23,6 +23,9 @@ categories:
     labels:
       - 'Renovate'
       - 'Dependency updates'
+  - title: ⚙️ Changes for plugin developers
+    labels:
+      - developer 
 exclude-labels:
   - skip-changelog
   - invalid
