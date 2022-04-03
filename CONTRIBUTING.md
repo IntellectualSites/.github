@@ -7,7 +7,6 @@
     - [IDE Configuration](#ide-configuration)
     - [Source code contribution](#source-code-contribution)
     - [Run locally](#run-locally)
-    - [Code Style](#code-style)
     - [FAQ](#Frequently-asked-questions)
 
 **Never report security issues on GitHub, public issues or other public channels (Discord etc.), follow the instruction from the  [Security advisory](https://github.com/IntellectualSites/.github/blob/main/SECURITY.md) to report it in private.**
