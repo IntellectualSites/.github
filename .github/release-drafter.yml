@@ -23,6 +23,8 @@ categories:
     labels:
       - 'Renovate'
       - 'Dependency updates'
+      - 'dependencies'
+    collapse-after: 5 
   - title: ⚙️ Changes for plugin developers
     labels:
       - developer 
@@ -78,9 +80,3 @@ autolabeler:
       - '/docs\/.+/'
     title:
       - '/documentation/i'
-  - label: 'Ready for Review'
-    body:
-      - '\Z'
-  - label: 'Ready for Review'
-    body:
-      - '.'
