@@ -35,5 +35,7 @@ Almost everyone is eligible to receive security gifts, with the following except
 - **Previously unknown**: Only issues project maintainers were previously unaware of are eligible.
 - **Publications**: Issues need to have been fixed and announced in a security advisory.
 
+We also reserve the right to refuse sending a gift for any reason - not something we're likely to do, but just a catch-all rule to prevent someone from gaming the rules.
+
 #### Process
 Once a project maintainer has resolved the issue and a fix has been published, the reporter is eligible for this reward. We'll generally contact the reporter and offer them to send a gift.
