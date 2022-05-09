@@ -29,7 +29,8 @@ If a project has a code style policy, you can find an `.editorconfig` file in th
 - Make sure to phrase the commit message following [conventional commits](https://www.conventionalcommits.org/en/).   
 For an example from maintaners, take a look at the commit history.
 - Once you're done, create a pull request. GitHub will request a review from a maintainer automatically.
-    - Remember to title your pull request properly as it is used for release notes.
+    - Remember to title your pull request properly, as it is used for release notes.
+    - Please raise one PR for one issue or enhancement you're working on. The smaller the PR change is, the easier and faster it is to review. We don't mind receiving several minor PRs.
 
 ### Run locally
 To get started, you will need the following software, most of which can be obtained in (most) package managers such as `apt` (Debian / Ubuntu), `homebrew` (macOS / Linux), and more:
