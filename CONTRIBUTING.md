@@ -34,21 +34,11 @@ For an example from maintaners, take a look at the commit history.
 ### Run locally
 To get started, you will need the following software, most of which can be obtained in (most) package managers such as `apt` (Debian / Ubuntu), `homebrew` (macOS / Linux), and more:
 - `git` (package `git` everywhere)
-- A Java 16 or later JDK (packages vary).
+- A Java 17 or later JDK (packages vary).
     - [Adoptium](https://adoptium.net/) has builds for most operating systems.
-    - If not stated otherwise, our projects make use of Gradle's [Toolchain](https://docs.gradle.org/current/userguide/toolchains.html) feature to allow building with only JRE 8 or later installed. (Gradle will automatically provision JDK 16 for compilation if it cannot find an existing install).
+    - If not stated otherwise, our projects make use of Gradle's [Toolchain](https://docs.gradle.org/current/userguide/toolchains.html) feature to allow building with only JRE 8 or later installed. (Gradle will automatically provision JDK 17 for compilation if it cannot find an existing install).
 
 If you are on Windows, you can download git [here](https://git-scm.com/downloads). The instructions for Java apply nevertheless.
-
-If you're compiling with Docker, you can use Adoptium's
-[`eclipse-temurin`](https://hub.docker.com/_/eclipse-temurin/) images like so:
-```console
-# docker run -it -v "$(pwd)":/data --rm eclipse-temurin:16.0.2_7-jdk bash
-Pulling image...
-
-root@abcdefg1234:/# javac -version
-javac 16.0.2
-```
 
 Compiling is done by invoking the steps `clean` and `build` with the project's build tool.
 
