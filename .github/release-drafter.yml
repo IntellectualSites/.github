@@ -16,7 +16,7 @@ categories:
       - 'Refactor'
       - 'chore'
   - title: '⚙️ Changes for plugin developers'
-    label: 'developer'
+    label: 'Developer'
   - title: '📝 Documentation updates'
     label: 'documentation'
   - title: '🚦 Tests'
