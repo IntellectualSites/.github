@@ -15,6 +15,8 @@ categories:
     labels:
       - 'Refactor'
       - 'chore'
+  - title: '⚙️ Changes for plugin developers'
+    label: 'developer'
   - title: '📝 Documentation updates'
     label: 'documentation'
   - title: '🚦 Tests'
@@ -25,9 +27,6 @@ categories:
       - 'Dependency updates'
       - 'dependencies'
     collapse-after: 5 
-  - title: ⚙️ Changes for plugin developers
-    labels:
-      - developer 
 exclude-labels:
   - skip-changelog
   - invalid
