@@ -1,10 +1,10 @@
 categories:
   - title: '💥 Breaking changes'
     label: 'Breaking changes'
+  - title: '🚀 Major features'
+    label: 'Major feature'
   - title: '🐞 Major bug fixes'
     label: 'Major bug fix'
-  - title: '🚀 Major features and improvements'
-    label: 'Major feature'
   - title: '🐛 Fixes'
     label: 'Bugfix'
   - title: '✨ Features'
