@@ -1,32 +1,26 @@
-# Security Policy
-
-IntellectualSites takes security seriously.
-We make every possible effort to ensure users can adequately use our software in a secure environment.
-
 ## Reporting Security Vulnerabilities
 
 Please report security vulnerabilities through [this form](https://forms.gle/btgdRn9yhGtzEiGW8).  
 The form is configured in such a way that only the reporter and the IntellectualSites project maintainers can see the details.
-By restricting access to this potentially sensitive information, we can work on a fix and deliver it before the method of attack becomes well-known.
+By restricting access to this potentially sensitive information, we can work on a fix and deliver it, before a vulnerability becomes well known.
 
 ### Issue Handling
 If you have submitted a properly filled out report, the project maintainers will look into your issue shortly.   
-Keep in mind, that we may choose to reject issues, if they are not feasible for us to address, due limitations or native handling in the Minecraft server code itself.
+Keep in mind, that we may choose to reject issues, if they are not feasible for us to address, due limitations or implementations of the Minecraft codebase.
 
 ### Attribution policy
-We will credit reporters who informed us in private by filling out the form above in advisories published.
+We will credit reporters who informed us in private by filling out the form above in security releases published.
 
 ### Gift policy
 We want to show our appreciation to people privately reporting issues in our software by sending them a small gift.   
-While our beloved projects are developed voluntarily in our free time and funded by coffee and long nights, we are not able to offer "bug bounties".
+While our beloved projects are developed voluntarily in our free time we are not able to offer "bug bounties".
 
-We're offering to send you an IntellectualSites mug and a bunch of project stickers.
+We're offering to send you an IntellectualSites mug and a bunch of project stickers, if you are interested 🥳
 
 To be sent a gift, you need to be an **eligible reporter** and have reported an **eligible issue**.
 
 #### Eligible Reporters
 Almost everyone is eligible to receive security gifts, with the following exceptions:
-- **No project maintainers**: If you are part of the @IntellectualSites/core-team, you are not eligible for a gift.
 - **No previous recipients**: If you've received a gift for reporting a security vulnerability in the past, we're not going to send you another one, sorry.
 
 #### Eligible Issues
