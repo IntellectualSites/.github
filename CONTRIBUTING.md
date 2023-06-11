@@ -9,7 +9,7 @@
     - [Run locally](#run-locally)
     - [FAQ](#Frequently-asked-questions)
 
-**Never report security issues on GitHub, public issues or other public channels (Discord etc.), follow the instruction from the [Security advisory](https://github.com/IntellectualSites/.github/blob/main/SECURITY.md) to report it in private.**
+**Never report security issues on GitHub, public issues or other public channels (Discord etc.), follow the instruction in the [SECURITY.md](https://github.com/IntellectualSites/.github/blob/main/SECURITY.md) to report vulnerabilities in private.**
 
 We appreciate any kind of contributions: code, documentation, design, etc. Any contribution counts, and the size does not matter!
 
