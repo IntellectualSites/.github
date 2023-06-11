@@ -20,7 +20,7 @@ In the form, add a "Title" summing the vulnerability up.
 
 In the "Description" field, provide as much information about the vulnerability, including:
 - The output of `/version`
-- The URL of a `/plot debugpaste` or `/fawe debugpaste`
+- The URL of a `/plot debugpaste` or `/fawe debugpaste`, if the vulnerability is within one of our plugins.
 - Steps to replicate the issue
 - Error logs and stack traces, if applicable
 
