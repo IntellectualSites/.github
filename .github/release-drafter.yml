@@ -1,34 +1,46 @@
 categories:
   - title: '💥 Breaking changes'
-    label: 'Breaking changes'
+    when:
+      label: 'Breaking changes'
   - title: '🚀 Major features'
-    label: 'Major feature'
+    when:
+      label: 'Major feature'
   - title: '🐞 Major bug fixes'
-    label: 'Major bug fix'
+    when:
+      label: 'Major bug fix'
   - title: '🐛 Fixes'
-    label: 'Bugfix'
+    when:
+      label: 'Bugfix'
   - title: '✨ Features'
-    label: 'Feature'
+    when:
+      label: 'Feature'
   - title: '🧭 Changes'
-    label: 'Enhancement'
+    when:
+      label: 'Enhancement'
   - title: '✅ Chore'
-    labels:
-      - 'Refactor'
-      - 'chore'
+    when:
+      labels:
+        - 'Refactor'
+        - 'chore'
   - title: '⚙️ Changes for plugin developers'
-    label: 'Developer'
+    when:
+      label: 'Developer'
   - title: '📝 Documentation updates'
-    label: 'documentation'
+    when:
+      label: 'documentation'
   - title: '🚦 Tests'
-    label: 'tests'    
+    when:
+      label: 'tests'
+  - type: 'version-resolver'
+    semver-increment: patch
+    when:
+      label: 'upstream'
   - title: '📦 Dependency updates'
-  - title: '⬆️ Upstream updates'
-    label: 'upstream'    
-  - title: '📦 Dependency updates'
-    labels:
-      - 'Renovate'
-      - 'Dependency updates'
-      - 'dependencies'
+    when:
+      labels:
+        - 'Renovate'
+        - 'Dependency updates'
+        - 'dependencies'
     collapse-after: 15
 exclude-labels:
   - skip-changelog
