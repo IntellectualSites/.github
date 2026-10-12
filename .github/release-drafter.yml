@@ -22,6 +22,9 @@ categories:
   - title: '🚦 Tests'
     label: 'tests'    
   - title: '📦 Dependency updates'
+  - title: '⬆️ Upstream updates'
+    label: 'upstream'    
+  - title: '📦 Dependency updates'
     labels:
       - 'Renovate'
       - 'Dependency updates'
