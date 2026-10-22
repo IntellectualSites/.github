@@ -28,13 +28,12 @@ categories:
   - title: '📝 Documentation updates'
     when:
       label: 'documentation'
+  - title: '⬆️ Upstream updates'
+    when:
+      label: 'upstream'
   - title: '🚦 Tests'
     when:
       label: 'tests'
-  - type: 'version-resolver'
-    semver-increment: patch
-    when:
-      label: 'upstream'
   - title: '📦 Dependency updates'
     when:
       labels:
